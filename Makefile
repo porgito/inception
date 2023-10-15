@@ -43,8 +43,8 @@ status:
 	@docker compose ${FLAGS} ps
 
 clean:
-	@rm -rf /home/acoezard/data/www/* > /dev/null
-	@rm -rf /home/acoezard/data/database/* > /dev/null
+	@rm -rf /home/jlaurent/data/www/* > /dev/null
+	@rm -rf /home/jlaurent/data/database/* > /dev/null
 	@echo ${__BLUE}"info"${__WHITE}" - cleaned docker data"${__EOC}
 
 fclean: clean
