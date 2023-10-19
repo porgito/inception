@@ -9,13 +9,13 @@ volumes:
     driver: local
     driver_opts:
       type: 'none'
-      device: '/mnt/c/Users/jules/Desktop/data/wordpress'
+      device: '/home/jlaurent/Documents/data/wordpress'
       o: 'bind'
   mariadb:
     driver: local
     driver_opts:
       type: 'none'
-      device: '/mnt/c/Users/jules/Desktop/data/mariadb'
+      device: '/home/jlaurent/Documents/data/mariadb'
       o: 'bind'							
 
 services:
